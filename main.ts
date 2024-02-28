@@ -92,8 +92,8 @@ console.log(add(5,3));*/
 //Q No 11: Names: Store the names of a few of your friends in a array called names. Print each
  //person’s name by accessing each element in the list, one at a time.
 
-//  let names:string[]=['Ashfaque Ahmed Channa','Muhammad Ali Rahoojo ', 'Asad','Ali'];
-//  console.log(names);
+let names:string[]=['Ashfaque Ahmed Channa','Muhammad Ali Rahoojo ', 'Asad','Ali'];
+console.log(names);
 
 /*Greetings: Start with the array you used in Exercise 11, but instead of just
  printing each person’s name, print a message to them. The text of each message 

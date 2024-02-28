@@ -1,3 +1,4 @@
+"use strict";
 // Q No 1:
 //console.log("Hellow World");
 //Q No2:
@@ -74,19 +75,19 @@ console.log(add(5,3));*/
 //console.log("this one also comment");
 //Q No 11: Names: Store the names of a few of your friends in a array called names. Print each
 //person’s name by accessing each element in the list, one at a time.
-//  let names:string[]=['Ashfaque Ahmed Channa','Muhammad Ali Rahoojo ', 'Asad','Ali'];
-//  console.log(names);
+let names = ['Ashfaque Ahmed Channa', 'Muhammad Ali Rahoojo ', 'Asad', 'Ali'];
+console.log(names);
 /*Greetings: Start with the array you used in Exercise 11, but instead of just
  printing each person’s name, print a message to them. The text of each message
  should be the same, but each message should be personalized with the person’s name.*/
-var names = ['Ashfaque Ahmed Channa:', 'Muhammad Ali Rahoojo:', 'Asad:'];
+//let names:string[]=['Ashfaque Ahmed Channa:','Muhammad Ali Rahoojo:','Asad:'];
 /*for(let i=0;i<names.length;i++){
  console.log(i,names[i],"This is my first class");
 } (start loop above / bellow)*/
-for (var _i = 0, names_1 = names; _i < names_1.length; _i++) {
-    var name_1 = names_1[_i];
-    console.log("Good Morning ".concat(name_1, " Have a nice day"));
-}
+//for (let name of names)
+//{
+//    console.log(`Good Morning ${name} Have a nice day`)
+//}
 // for(let i=97;i<=122;i++){
 //    console.log(String.fromCharCode(i))
 // }
@@ -96,8 +97,7 @@ for (var _i = 0, names_1 = names; _i < names_1.length; _i++) {
 // Q 13: Your Own Array: Think of your favorite mode of transportation, such as a 
 //motorcycle or a car, and make a list that stores several examples. Use your list to print a
 //series of statements about these items, such as “I would like to own a Honda motorcycle.”
-var myVehicle = ['Bike Suzuki 150', 'Car Honda civic'];
-for (var _a = 0, myVehicle_1 = myVehicle; _a < myVehicle_1.length; _a++) {
-    var name_2 = myVehicle_1[_a];
-    console.log(name_2, "I always perfer to travel on own vehicle");
-}
+// let myVehicle: string[]=['Bike Suzuki 150','Car Honda civic'];
+// for (let name of myVehicle){
+//     console.log(name,"I always perfer to travel on own vehicle");
+// }
